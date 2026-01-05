@@ -318,7 +318,7 @@ async def sync_from_gemini(
 
             tax_report = TaxReport(
                 filename=filename,
-                total_gain_loss=tax_summary['total_gain_loss']
+                total_gain_loss=tax_summary['total_gain_loss'],
                 short_term_gain_loss=tax_summary['short_term_gain_loss'],
                 long_term_gain_loss=tax_summary['long_term_gain_loss'],
                 num_transactions=tax_summary['num_transactions'],
